@@ -1,0 +1,32 @@
+
+##
+GET https://mbiebapi-ont.belastingdienst.nl/
+Accept: application/json
+## REST REpresentional State Transfer
+
+
+@site=https://restdesign.dev
+GET {{site}}/api/customers?includeProjects=true
+Accept: application/json
+
+### REST REpresentional State Transfer
+
+###
+GET https://bes1-boscp08-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/
+Accept: application/json
+## REST REpresentional State Transfer
+# curl -X 'GET' 'https://bes1-boscp08-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/book2' -H 'accept: application/json'
+
+###
+GET https://bes1-boscp08-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/book2
+Accept: application/json
+## REST REpresentional State Transfer
+
+Accept: application/json
+###
+GET {{site}}/api/customers
+Accept: application/json
+
+###
+GET https://api.github.com/users/datamohikaan/followers
+
